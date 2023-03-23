@@ -34,7 +34,7 @@ int main()
  cout << "Enter Box 2 Height : ";
  cin >> box2Height;
  cout << "Enter Box 2 Width : ";
- cin >> box2Width;
+ in >> box2Width;
  cout << "Enter Box 2 Length : ";
  cin >> box2Length;
 
@@ -54,7 +54,7 @@ int volume(int height, int width, int length){
 }*/
 
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int volume(int height, int width, int length);
 
@@ -94,7 +94,27 @@ cin >>  box1.Length;
 
 int volume(int height, int width, int length){
   return height*width*length;
+}*/
+
+
+#include <iostream>
+using namespace std;
+
+void print(int len, int wth);
+void input(int len, int wth);
+// Do not change the main() function
+int main() {
+ int length = 10, width = 5;
+ input(length, width);
+ print(length, width);
+ return 0;
 }
+// Do not change the print() function
+void print(int len, int wth) {
+ cout << "Length : " << len
+ << ", Width : " << wth << endl;
+}
+
 
 
 

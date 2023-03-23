@@ -34,7 +34,7 @@ int main()
  cout << "Enter Box 2 Height : ";
  cin >> box2Height;
  cout << "Enter Box 2 Width : ";
- cin >> box2Width;
+ in >> box2Width;
  cout << "Enter Box 2 Length : ";
  cin >> box2Length;
 
